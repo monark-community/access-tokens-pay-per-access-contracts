@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -88,7 +87,7 @@ const AssetMarketplace = () => {
               className={`${
                 selectedCategory === category.id
                   ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white'
-                  : 'border-white/20 text-white hover:bg-white/10'
+                  : 'border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white/50 bg-transparent'
               }`}
             >
               {category.name}
@@ -145,7 +144,7 @@ const AssetMarketplace = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 py-3">
+          <Button variant="outline" className="border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white/50 bg-transparent px-8 py-3">
             View All Assets
           </Button>
         </div>
