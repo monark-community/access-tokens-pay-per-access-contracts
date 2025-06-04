@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Shield, Zap } from 'lucide-react';
+import { ArrowRight, Shield, Zap, Settings } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -42,9 +41,7 @@ const Hero = () => {
             <p className="text-gray-300">Lightning-fast token transactions with immediate access rights verification.</p>
           </div>
           <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10">
-            <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-blue-400 rounded-lg flex items-center justify-center mb-4">
-              <span className="text-white font-bold">∞</span>
-            </div>
+            <Settings className="w-12 h-12 text-green-400 mb-4" />
             <h3 className="text-xl font-semibold text-white mb-2">Flexible Pricing</h3>
             <p className="text-gray-300">Set time-based, usage-based, or one-time access fees for your digital assets.</p>
           </div>
