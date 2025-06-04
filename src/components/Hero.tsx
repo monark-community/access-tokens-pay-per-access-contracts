@@ -24,7 +24,7 @@ const Hero = () => {
               Explore Marketplace
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 hover:text-white px-8 py-6 text-lg">
+            <Button variant="outline" className="border-gray-300 text-gray-300 hover:bg-gray-300 hover:text-slate-900 px-8 py-6 text-lg">
               Start Creating
             </Button>
           </div>
