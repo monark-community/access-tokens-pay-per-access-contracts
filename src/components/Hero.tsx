@@ -5,7 +5,7 @@ import { ArrowRight, Shield, Zap } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden bg-slate-900">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-blue-900/20"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
@@ -24,7 +24,7 @@ const Hero = () => {
               Explore Marketplace
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 py-6 text-lg">
+            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 hover:text-white px-8 py-6 text-lg">
               Start Creating
             </Button>
           </div>

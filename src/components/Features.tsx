@@ -38,12 +38,12 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-black/20">
+    <section className="py-20 bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             Powerful Features for
-            <span className="block bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent leading-tight">
               Digital Asset Control
             </span>
           </h2>
