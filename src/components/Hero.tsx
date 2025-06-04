@@ -1,10 +1,8 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Zap, Settings } from 'lucide-react';
-
 const Hero = () => {
-  return (
-    <section className="relative py-20 overflow-hidden bg-slate-900">
+  return <section className="relative py-20 overflow-hidden bg-slate-900">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-blue-900/20"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
@@ -23,7 +21,7 @@ const Hero = () => {
               Explore Marketplace
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button variant="outline" className="border-gray-300 text-gray-300 hover:bg-gray-300 hover:text-slate-900 px-8 py-6 text-lg">
+            <Button variant="outline" className="border-gray-300 px-8 py-6 text-lg bg-black/0 text-neutral-50">
               Start Creating
             </Button>
           </div>
@@ -47,8 +45,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
